@@ -1,0 +1,667 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1500; Version 1909; 64bit' Language: 'en' Physical Memory: 8107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2018.4.34f1\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tengis/Documents/Current/Thesis/Test Unity projects/For URDF importer latest unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57946
+Successfully changed project path to: C:/Users/Tengis/Documents/Current/Thesis/Test Unity projects/For URDF importer latest unity
+C:/Users/Tengis/Documents/Current/Thesis/Test Unity projects/For URDF importer latest unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 77.71 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 2.45 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/2018.4.34f1/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tengis/Documents/Current/Thesis/Test Unity projects/For URDF importer latest unity/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   20.19.15.4835
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/2018.4.34f1/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2018.4.34f1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2018.4.34f1/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2018.4.34f1/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002819 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.61 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 1248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.1 MB.
+System memory in use after: 64.2 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 2.910300 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.124400 ms MarkObjects: 2.395400 ms  DeleteObjects: 0.127500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(1292e502d7bed3e4a985a85bd51dd3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(1292e502d7bed3e4a985a85bd51dd3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c7edf7933dd231346d527ca22fd05f') in 0.076063 seconds
+  Import took 0.088893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 658.257281 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/base_link.dae
+  artifactKey: Guid(0282ab0f88408934daf6cba1c8eebe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/base_link.dae using Guid(0282ab0f88408934daf6cba1c8eebe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dfe5e6edc64707b2962cd62dc3931f') in 0.291691 seconds
+  Import took 0.297587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Editor/Migration/EditorMigrationScripts.asmdef
+  artifactKey: Guid(f3a385ed4c943d742a2e7a85a3d4386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Migration/EditorMigrationScripts.asmdef using Guid(f3a385ed4c943d742a2e7a85a3d4386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74964a757473d3f614bffbcba28ac7b7') in 0.012630 seconds
+  Import took 0.017492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/link_3.dae
+  artifactKey: Guid(da4ca686baded0243af8a4d17eeb8335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/link_3.dae using Guid(da4ca686baded0243af8a4d17eeb8335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f2fee99d381f0fd3fb04ca0bbed624') in 0.154294 seconds
+  Import took 0.160176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/link_1.dae
+  artifactKey: Guid(6b70e430a02669741a17fde2972d84f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/link_1.dae using Guid(6b70e430a02669741a17fde2972d84f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5738765bc2daae5f7bde8d83a203b79') in 0.183304 seconds
+  Import took 0.190689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/link_2.dae
+  artifactKey: Guid(e58b7a261e05fd640825dc6a7af8f89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/visual/link_2.dae using Guid(e58b7a261e05fd640825dc6a7af8f89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d61bb2ba40ce1ff0a0b3cf119584c28') in 0.186526 seconds
+  Import took 0.194532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/base_link.prefab
+  artifactKey: Guid(220a118413f0cd2489f739ae7458e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/base_link.prefab using Guid(220a118413f0cd2489f739ae7458e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e1ee0d1a713a44757f3ce2c3a20fc4') in 0.054286 seconds
+  Import took 0.060032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/link_1.prefab
+  artifactKey: Guid(7adb9e864d18eac428d268a7c255e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/link_1.prefab using Guid(7adb9e864d18eac428d268a7c255e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff86df77ac8f7fc674af7e3ea1fadf96') in 0.037673 seconds
+  Import took 0.044206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/base_link_0.asset
+  artifactKey: Guid(6232d680dbd6c7c44a3f4dd39eb572c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/base_link_0.asset using Guid(6232d680dbd6c7c44a3f4dd39eb572c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09713c4170e3989bf82047d1f9c49863') in 0.107089 seconds
+  Import took 0.112724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/URDF/Materials/Default.mat
+  artifactKey: Guid(eac2d7e63c300f34c9e11b99a5c8d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Materials/Default.mat using Guid(eac2d7e63c300f34c9e11b99a5c8d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e0225adeff3204ac4c0bc0bb2ba26e') in 0.043801 seconds
+  Import took 0.050050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002433 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/link_1_0.asset
+  artifactKey: Guid(b3d0d16dc878b514fb81471eb6fbe705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/link_1_0.asset using Guid(b3d0d16dc878b514fb81471eb6fbe705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af95ce8781994d589a10bf2ea37db778') in 0.036817 seconds
+  Import took 0.041402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015809 seconds.
+  path: Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/link_1_0.asset
+  artifactKey: Guid(b3d0d16dc878b514fb81471eb6fbe705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support/meshes/kr5_arc/collision/link_1_0.asset using Guid(b3d0d16dc878b514fb81471eb6fbe705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af95ce8781994d589a10bf2ea37db778') in 0.030567 seconds
+  Import took 0.034797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 2.237500 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.101600 ms MarkObjects: 1.815200 ms  DeleteObjects: 0.095400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.473930 seconds.
+  path: Assets/Resources/ARCamera.prefab
+  artifactKey: Guid(8d771cb2b2b62ba439e3c9663e407830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ARCamera.prefab using Guid(8d771cb2b2b62ba439e3c9663e407830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4561bcbbcf7de6610ed86ee5cb8d0529') in 0.038656 seconds
+  Import took 0.042496 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007249 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.225 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 1991.
+Total: 2.233500 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.129900 ms MarkObjects: 1.806800 ms  DeleteObjects: 0.122600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.190053 seconds.
+  path: Assets/Resources/ImageTarget.prefab
+  artifactKey: Guid(186cde6f69bc4cf4196f5d78872c6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ImageTarget.prefab using Guid(186cde6f69bc4cf4196f5d78872c6be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1581c1d4746bf1c410a5c736fa3557') in 0.044031 seconds
+  Import took 0.047723 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009775 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 2.419300 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.887600 ms  DeleteObjects: 0.074500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.686601 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/package.json
+  artifactKey: Guid(413bdcb2b7491ca4392b1f84b432d92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/package.json using Guid(413bdcb2b7491ca4392b1f84b432d92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6c86279ffc920a127d5ed74888d3c8') in 0.039219 seconds
+  Import took 0.043731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.408046 seconds.
+  path: Assets/URDF/Materials
+  artifactKey: Guid(35902d4e094e2794a997e4ba40adbd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Materials using Guid(35902d4e094e2794a997e4ba40adbd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84067cb14672954f892a830af3b56dcb') in 0.015587 seconds
+  Import took 0.019793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.389536 seconds.
+  path: Assets/URDF/kuka_kr5_support
+  artifactKey: Guid(48fff96a7e2a24149afd59097ab1fe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/kuka_kr5_support using Guid(48fff96a7e2a24149afd59097ab1fe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e2493fb3decc4915d97d9aa5b17fb6') in 0.016283 seconds
+  Import took 0.019868 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 2.126100 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.803200 ms  DeleteObjects: 0.087500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.228105 seconds.
+  path: Assets/KUKA KR5 arc
+  artifactKey: Guid(e78878438f973804d9ed3975683c00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KUKA KR5 arc using Guid(e78878438f973804d9ed3975683c00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8d1a866c855f4164569d730df4405d') in 0.012647 seconds
+  Import took 0.016502 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 2.015000 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.700500 ms  DeleteObjects: 0.076400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 614.306602 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(409958e8e230d4e45a611c0390cc2690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(409958e8e230d4e45a611c0390cc2690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731c1f0f91ce8abde211ecc617b4516b') in 0.020434 seconds
+  Import took 0.025694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.327046 seconds.
+  path: Assets/StreamingAssets/Vuforia
+  artifactKey: Guid(144097caa59fa3a428e9b2b4cf27db2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia using Guid(144097caa59fa3a428e9b2b4cf27db2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec134b7aa69ddd567cc8f464f688882d') in 0.016942 seconds
+  Import took 0.021302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.323844 seconds.
+  path: Assets/StreamingAssets/Vuforia/Robotic_arm.xml
+  artifactKey: Guid(ab77aa646d914afc8092f71ba6b93af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/Robotic_arm.xml using Guid(ab77aa646d914afc8092f71ba6b93af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6f5ee2bd4d6ad7270ff40194d4b4e0') in 0.036708 seconds
+  Import took 0.040563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.241357 seconds.
+  path: Assets/StreamingAssets/Vuforia/Robotic_arm.dat
+  artifactKey: Guid(394ca49e7c814cabb57370aa53b62c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/Vuforia/Robotic_arm.dat using Guid(394ca49e7c814cabb57370aa53b62c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd66a339be5b41ef3502d6c1088dacf9') in 0.012702 seconds
+  Import took 0.016571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.317339 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/DefaultMidAirIndicator.prefab
+  artifactKey: Guid(e5581564ca4d5f2479d5f1694371ef2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/DefaultMidAirIndicator.prefab using Guid(e5581564ca4d5f2479d5f1694371ef2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627c945ae4a363b5243642d1b337c60d') in 0.490178 seconds
+  Import took 0.494049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/DefaultPlaneIndicator.prefab
+  artifactKey: Guid(b9ed12c68682d5b49bfa70ee9d71602d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/DefaultPlaneIndicator.prefab using Guid(b9ed12c68682d5b49bfa70ee9d71602d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1656bb6345838ef931e93c7bd4260cd1') in 0.117896 seconds
+  Import took 0.121775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/MidAirReference.prefab
+  artifactKey: Guid(e9dc61a799fb66b4f830683886a6d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/MidAirReference.prefab using Guid(e9dc61a799fb66b4f830683886a6d761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac137f536bd709e9443ac1dd6bfb4f6') in 0.070216 seconds
+  Import took 0.074149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_3.prefab
+  artifactKey: Guid(09537f929e936f4468bc4ed3a769938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_3.prefab using Guid(09537f929e936f4468bc4ed3a769938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5260cb996e863dbd5826d7bce4f344') in 0.049307 seconds
+  Import took 0.054069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/GroundPlaneReference.prefab
+  artifactKey: Guid(cf19ace87b12c2741979b9582691d60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/GroundPlaneReference.prefab using Guid(cf19ace87b12c2741979b9582691d60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c6fe9af9c190d8f592de0883ac01d') in 0.085195 seconds
+  Import took 0.090289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001856 seconds.
+  path: Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_5.prefab
+  artifactKey: Guid(ae8f14d626ccfeb4590e6ff0b920460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_5.prefab using Guid(ae8f14d626ccfeb4590e6ff0b920460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156bd99d78c35d7d80a3b2c9d792509e') in 0.032543 seconds
+  Import took 0.037957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/SessionRecorder.prefab
+  artifactKey: Guid(8ce5dfe4cb6b24642b68cb2125a3004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ptc.vuforia.engine/Vuforia/Prefabs/SessionRecorder.prefab using Guid(8ce5dfe4cb6b24642b68cb2125a3004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adab49fbf3639c86f3ecf35b87b2b2ce') in 0.145418 seconds
+  Import took 0.150584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_6.prefab
+  artifactKey: Guid(23182e5e3ace9bc4e88f278d1aa8c036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_6.prefab using Guid(23182e5e3ace9bc4e88f278d1aa8c036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dab21698df867e154bead6ccd65e750') in 0.032708 seconds
+  Import took 0.036363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_2.prefab
+  artifactKey: Guid(9ea59ede2b77af3489072d0cc05cfe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_2.prefab using Guid(9ea59ede2b77af3489072d0cc05cfe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cf46b38a289cc4f70ccd5491a4850f') in 0.027881 seconds
+  Import took 0.032246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_4.prefab
+  artifactKey: Guid(96204f89029595f459bc56f69758a402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KUKA KR5 arc/kuka_kr5_support/meshes/kr5_arc/collision/link_4.prefab using Guid(96204f89029595f459bc56f69758a402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa4b8d749ffebf1d53d546a473a02c0') in 0.047826 seconds
+  Import took 0.052171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.138766 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc88d30298de184e88bcd508295e8d6') in 0.015406 seconds
+  Import took 0.019621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.598835 seconds.
+  path: Assets/Editor/Vuforia
+  artifactKey: Guid(19d9379a957fa864d8cd812dc63b9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia using Guid(19d9379a957fa864d8cd812dc63b9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b65101a342d24a4200d97a238a2e4c') in 0.008365 seconds
+  Import took 0.014809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801628 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures
+  artifactKey: Guid(37ec4b40f37b9174f80f1cb49134a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures using Guid(37ec4b40f37b9174f80f1cb49134a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4571b4f3b3814253907cadae226844b5') in 0.016223 seconds
+  Import took 0.019907 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <d3e3611e09164266b01b2e2ee0bae4b4>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 1232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.9 MB.
+System memory in use after: 66.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 2.400000 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.218300 ms MarkObjects: 1.794300 ms  DeleteObjects: 0.136100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.151036 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(360834ee54a92834fbbb0ce2d30217a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(360834ee54a92834fbbb0ce2d30217a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cadb6a3283af211f9cc92e99bb39d3') in 0.021286 seconds
+  Import took 0.025600 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
